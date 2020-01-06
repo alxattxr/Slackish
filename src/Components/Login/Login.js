@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './Login.css';
+import { EyeIcon, EyeSlashIcon } from './../shared/Icon.js';
 import firebase from './../../firebase.config';
 
 
@@ -198,7 +199,7 @@ const PasswordField = (props) => {
             placeholder={props.placeholder}
             onChange={props.onChange}>
             </input>
-            <span className="login__icon" onClick={props.hidePasswordToggle}></span>
+            <span className="login__icon" onClick={props.hidePasswordToggle}> {props.hidePassword === 'text' ? <EyeIcon /> : <EyeSlashIcon />}</span>
         </div>
     );
 };
