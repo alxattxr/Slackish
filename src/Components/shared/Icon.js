@@ -1,7 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library }  from '@fortawesome/fontawesome-svg-core';
-import { faEyeSlash, faEye , faPlusSquare, faUser, faBell} from '@fortawesome/pro-regular-svg-icons';
+import { faEyeSlash, faEye , faPlusSquare, faUser } from '@fortawesome/pro-regular-svg-icons';
+import { faBell} from '@fortawesome/pro-light-svg-icons';
 import { faTimes, faCheck, faChevronDown, faPaperclip, faPen, faThumbtack} from '@fortawesome/pro-solid-svg-icons';
 import { faStar as farStar } from '@fortawesome/pro-regular-svg-icons';
 import { faStar as fasStar} from '@fortawesome/pro-solid-svg-icons';
